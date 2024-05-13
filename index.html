@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boule</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="icon" href="styles.css" />
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <box-icon name='baguette'></box-icon>
         <nav>
             <ul>
                 <li><a href="/#banner">Quiénes somos</a></li>
@@ -26,7 +27,34 @@
             </p>
             <img src="" alt="">
         </section>
-        <section id="categorias"></section>
+        <section id="categorias">
+            <div class="container-grid-categorias">
+                <div class="card">
+                    <div>
+                        <img src="./assets/pexels-cottonbro-10202985 (1).jpg" alt="">
+                    </div>
+                    <h3>Nombre</h3>
+                    <p></p>
+                    <button>Agregar al carrito</button>   
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="./assets/pexels-cottonbro-10202985 (1).jpg" alt="">
+                    </div>
+                    <h3>Nombre</h3>
+                    <p>Precio</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="card">
+                    <div>
+                        <img src="./assets/pexels-cottonbro-10202985 (1).jpg" alt="">
+                    </div>
+                    <h3>Nombre</h3>
+                    <p>Precio</p>
+                    <button>Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
         <section id="productos">
             <h2>Productos</h2>
             <div class="container-grid-productos">
@@ -94,15 +122,15 @@
                     <label for="msg">Mensaje</label>
                     <textarea id="msg" placeholder="Ingrese su mensaje" required></textarea >
                 </div>
-                <button type="submit"></button>
+                <button type="submit">Enviar</button>
             </form>
         </section>
     </main>
     <footer>
         <div class="skewed"></div>
-        <p></p>
-        <p></p>
-        <p></p>
+        <h3>Contacto</h3>
+        <p>boule@gmail.com</p>
+        <p>3424093142</p>
     </footer>
 </body>
 </html>

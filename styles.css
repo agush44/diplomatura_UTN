@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: brown;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+li a{   
+    text-decoration: none;
+}
+
+section{
+    min-height: 100vh;
+}    
+
+#banner{
+    background-color: blueviolet;
+}
+
+.container-grid-productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: 1px black solid;
+    padding: 50px;
+}
+
+#contacto form{
+    background-color: cadetblue;
+}
+
+#contacto form div{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+
